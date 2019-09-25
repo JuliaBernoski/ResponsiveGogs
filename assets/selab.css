@@ -11,17 +11,18 @@
     padding-bottom: .5em;
 }
 
-.ui.menu .item{
-    color:black;
-}
 a{
     color:black;
 }
 
-html{
+body{
     color:black;
 }
 
-.repository .header-wrapper{
+header{
+    color:black;
+}
+
+.header-wrapper{
     color:black;
 }
