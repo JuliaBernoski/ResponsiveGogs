@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0039)https://gogs.selab.ca/rhildred/api-ping -->
-<html><head data-suburl=""><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en"><head data-suburl=""><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,17 +66,17 @@
 					<div class="ui grid">
 						<div class="column">
 							<div class="ui top secondary menu">
-								<a class="item brand" href="https://gogs.selab.ca/">
+								<a class="item brand" href="https://gogs.selab.ca/" aria-label="Link to Gogs">
 									<img class="ui mini image" src="./assets/favicon.png" alt="ResponsiveGogs Favicon">
 								</a>
 
 								
-									<a class="item" href="https://gogs.selab.ca/">Dashboard</a>
-									<a class="item" href="https://gogs.selab.ca/issues">Issues</a>
-									<a class="item" href="https://gogs.selab.ca/pulls">Pull Requests</a>
+									<a class="item" href="https://gogs.selab.ca/" aria-label="Dashboard">Dashboard</a>
+									<a class="item" href="https://gogs.selab.ca/issues" aria-label="Issues">Issues</a>
+									<a class="item" href="https://gogs.selab.ca/pulls" aria-label="Pull Requests">Pull Requests</a>
 								
 
-								<a class="item" href="https://gogs.selab.ca/explore/repos">Explore</a>
+								<a class="item" href="https://gogs.selab.ca/explore/repos" aria-label="Explore">Explore</a>
 								
 
 								
@@ -113,7 +113,7 @@
 												</div>
 
 												<div class="divider"></div>
-												<a class="item" href="https://gogs.selab.ca/rhildred">
+												<a class="item" href="https://gogs.selab.ca/rhildred"> 
 													<i class="octicon octicon-person"></i> Your Profile
 												</a>
 												<a class=" item" href="https://gogs.selab.ca/user/settings">
@@ -134,7 +134,7 @@
 
 												<form id="logout-form" class="item" action="https://gogs.selab.ca/user/logout" method="POST">
 													<input type="hidden" name="_csrf" value="K0z43jpOwZf_SFIL_bsp2-HHdgI6MTU2ODgyOTk5ODUxMTM0NTI4OA==">
-													<div class="submit-button" data-form="#logout-form">
+													<div class="submit-button" data-form="#logout-form" aria-label="Sign Out Button">
 														<i class="octicon octicon-sign-out"></i> Sign Out
 													</div>
 												</form>
@@ -176,18 +176,18 @@
 							<form class="display inline" action="https://gogs.selab.ca/rhildred/api-ping/action/unwatch?redirect_to=%2frhildred%2fapi-ping" method="POST">
 								<input type="hidden" name="_csrf" value="K0z43jpOwZf_SFIL_bsp2-HHdgI6MTU2ODgyOTk5ODUxMTM0NTI4OA==">
 								<div class="ui labeled button" tabindex="0">
-									<button class="ui basic button">
+									<button class="ui basic button" aria-label="Unwatch Button">
 										<i class="eye icon"></i>Unwatch
 									</button>
 									<a class="ui basic label" href="https://gogs.selab.ca/rhildred/api-ping/watchers">
 										1
 									</a>
 								</div>
-							</form>
+							</form aria-label="Form">
 							<form class="display inline" action="https://gogs.selab.ca/rhildred/api-ping/action/star?redirect_to=%2frhildred%2fapi-ping" method="POST">
 								<input type="hidden" name="_csrf" value="K0z43jpOwZf_SFIL_bsp2-HHdgI6MTU2ODgyOTk5ODUxMTM0NTI4OA==">
 								<div class="ui labeled button" tabindex="0">
-									<button class="ui basic button">
+									<button class="ui basic button" aria-label="Star Button">
 										<i class="star outline icon"></i>Star
 									</button>
 									<a class="ui basic label" href="https://gogs.selab.ca/rhildred/api-ping/stars">
@@ -329,14 +329,14 @@
 				
 					<div class="ui action small input" id="clone-panel">
 						
-							<button class="ui basic clone button blue" id="repo-clone-https" data-link="https://selab.ca/rhildred/api-ping.git">
+							<button class="ui basic clone button blue" id="repo-clone-https" data-link="https://selab.ca/rhildred/api-ping.git" aria-label="HTTPS">
 								HTTPS
 							</button>
 						
 						
 						<input id="repo-clone-url" value="https://selab.ca/rhildred/api-ping.git" readonly="">
-						<button class="ui basic icon button poping up clipboard" id="clipboard-btn" data-original="Copy" data-success="Copied!" data-error="Press ⌘-C or Ctrl-C to copy" data-content="Copy" data-variation="inverted tiny" data-clipboard-target="#repo-clone-url">
-							<i class="octicon octicon-clippy"></i>
+						<button class="ui basic icon button poping up clipboard" id="clipboard-btn" data-original="Copy" data-success="Copied!" data-error="Press ⌘-C or Ctrl-C to copy" data-content="Copy" data-variation="inverted tiny" data-clipboard-target="#repo-clone-url" aria-label="Copy">
+							<i class="octicon octicon-clippy">Copy</i>
 						</button>
 						<div class="ui basic jump dropdown icon button" tabindex="0">
 							<i class="download icon"></i>
