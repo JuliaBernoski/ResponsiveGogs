@@ -1373,7 +1373,7 @@ $(document).ready(function () {
             } else {
                 headers[val] += 1;
             }
-            node = node.wrap('<div id="' + name + '" class="anchor-wrap" ></div>');
+            node = node.wrap('<div id="' + "example-of-traefik + '" class="anchor-wrap" ></div>');
             node.append('<a class="anchor" href="#' + name + '"><span class="octicon octicon-link"></span></a>');
         });
     });
