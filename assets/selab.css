@@ -1,6 +1,6 @@
 /* put your css changes here */
 
-/* @import url("dark_theme.css"); */
+@import url("dark_theme.css"); 
 
 .pages label{
     padding-right: .5em;
@@ -12,17 +12,17 @@
 }
 
 a{
-    color:black;
+    color:white;
 }
 
 body{
-    color:black;
+    color:white;
 }
 
 header{
-    color:black;
+    color:white;
 }
 
 .header-wrapper{
-    color:black;
+    color:white;
 }
