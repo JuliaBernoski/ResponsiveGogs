@@ -1,6 +1,6 @@
 /* put your css changes here */
 
-/*@import url("dark_theme.css"); */
+@import url("dark_theme.css"); 
 
 .pages label{
     padding-right: .5em;
@@ -12,18 +12,18 @@
 }
 
 a{
-    color: black!important;
+    color: white!important;
 }
 a:hover{
-    color:#2699ab!important;
+    color:rgba(196, 45, 45, 0.95)!important;
 }
 
 .header-wrapper{
-    color:black!important;
+    color:white!important;
 }
 
 .ui header{
-    color:black!important;
+    color:white!important;
 }
 
 .footer{
@@ -32,73 +32,135 @@ a:hover{
     bottom:0px;
     height:30px;
     width:100%;
-    color:black!important;
+    color:white!important;
 }
 
 .fork-flag{
-    color:black!important;
+    color:white!important;
 }
 
 .section{
-    color:black!important;
+    color:white!important;
 }
 
 body{
-    color:black!important;
+    color:white!important;
+    background-color: #212328!important;
 }
 
 .ui.basic.blue.button, .ui.basic.blue.buttons .button{
-    color:black!important;
+    color:white!important;
 }
 .basic.label.ui{
-    color:white!important;
-    background-color: black!important;
+    color:black!important;
+    background-color: white!important;
 }
 
 .blue.small.label{
-    color:white!important;
-    background-color: black!important;
+    color:black!important;
+    background-color: white!important;
 }
 
 .ui.small.button, .ui.small.buttons .button, .ui.small.buttons .or{
-    color:black!important;
+    color:white!important;
 }
 
 .ui.table thead th{
-    color:black!important;
+    color:white!important;
 }
 .ui .text.grey{
-    color:black!important;
+    color:white!important;
 }
 
 .version{
-    color:black!important;
+    color:white!important;
 }
 
 .text{
-    color:black!important;
+    color:white!important;
 }
 
 .time-since poping up{
-    color:black!important;
+    color:white!important;
 }
 
 .active.item{
-    color:black!important;
+    color:white!important;
 }
 
 #repo-clone-url{
-    color:black!important;
+    color:white!important;
 }
 
 .huge{
-    color:black!important;
+    color:white!important;
 }
 
 .divider{
-    color:black!important;
+    color:white!important;
 }
 
 .left{
-    color:black;
+    color:white;
+}
+
+thead{
+    background-color:gray!important;
+    color:white!important;
+}
+
+.ui tabular menu navbar{
+    background-color:grey;
+}
+
+#repo-readme{
+    color:white!important;
+}
+
+.octicon {
+    color:white!important;
+}
+
+.octicon{
+    color:white!important;
+}
+
+.description has-emoji{
+background-color: gray!important;
+}
+
+.octicon octicon-git-branch{
+    background-color: gray!important;
+}
+.ui unstackable fixed single line table{
+    background-color: grey!important;
+}
+.right menu{
+    color:white!important;
+}
+
+.mega-octicon {
+    color:white!important;
+}
+
+.ui huge breadcrumb{
+    color:white!important;
+}
+
+#file-content{
+    color:grey!important;
+}
+.ui tabular menu navbar{
+    color:white!important;
+}
+
+#file-content{
+    color:white!important;
+}
+
+#an-example-that-runs-with-traefik{
+    color:white!important;
+}
+tr{
+    color:white!important;
 }

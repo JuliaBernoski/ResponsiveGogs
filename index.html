@@ -164,7 +164,7 @@
 							<i class="mega-octicon octicon-lock"></i>
 						
 						<a href="https://gogs.selab.ca/rhildred" aria-label="Username"></a>rhildred</a>
-						<div class="divider" style="color:black;"> / </div>
+						<div class="divider" aria-label="divider"> / </div>
 						<a href="https://gogs.selab.ca/rhildred/api-ping">api-ping</a>
 						<div class="fork-flag">mirror of <a target="_blank" rel="noopener noreferrer" href="https://bitbucket.org/rhildred/api-ping.rhlab.io.git">https://bitbucket.org/rhildred/api-ping.rhlab.io.git</a></div>
 						
@@ -220,20 +220,20 @@
 				</a>
 			
 			
-				<a class=" item" href="https://gogs.selab.ca/rhildred/api-ping/issues">
+				<a class="active item" href="https://gogs.selab.ca/rhildred/api-ping/issues">
 					<i class="octicon octicon-issue-opened"></i> Issues <span class="ui blue small label">1</span>
 				</a>
 			
 			
 			
-				<a class=" item" href="https://gogs.selab.ca/rhildred/api-ping/wiki">
+				<a class="active item" href="https://gogs.selab.ca/rhildred/api-ping/wiki">
 					<i class="octicon octicon-book"></i> Wiki
 				</a>
 			
 			
 				<div class="right menu">
-					<a class=" item" href="https://gogs.selab.ca/rhildred/api-ping/settings">
-						<i class="octicon octicon-tools"></i> Settings
+					<a class=" item" href="https://gogs.selab.ca/rhildred/api-ping/settings" style="color:white;">
+						<i class="octicon octicon-tools"></i> <p style="color:white;">Settings</p>
 					</a>
 				</div>
 			
@@ -492,11 +492,11 @@
 	<div class="ui unstackable attached table segment" aria-label="Attached Table Segment">
 		<div class="file-view markdown has-emoji" aria-label="Markdown Emoji">
 			
-				<div id="an-example-that-runs-with-traefik" class="anchor-wrap" aria-label="Example of Traefik"><h1 aria-label="Example that runs with Traefik">An example that runs with Traefik<a class="anchor" aria-label="Traefik" href="https://gogs.selab.ca/rhildred/api-ping#an-example-that-runs-with-traefik"><span class="octicon octicon-link" aria-label="Octicon Link"></span></a></h1></div>
+				<div id="an-example-that-runs-with-traefik" class="anchor-wrap" aria-label="Example of Traefik"><h1 aria-label="Example that runs with Traefik" style="color:white;">An example that runs with Traefik<a class="anchor" aria-label="Traefik" href="https://gogs.selab.ca/rhildred/api-ping#an-example-that-runs-with-traefik"><span class="octicon octicon-link" aria-label="Octicon Link"></span></a></h1></div>
 
-<p>With Traefik already running in the stack <code>traefik-host</code>, this can be added like:</p>
+<p style="color:white;">With Traefik already running in the stack <code style="background-color: gray;">traefik-host</code>, this can be added like:</p>
 
-<pre><code class="hljs stylus">DOMAIN=rhlab<span class="hljs-selector-class">.io</span> docker stack deploy -c docker-compose<span class="hljs-selector-class">.yml</span> traefik-host
+<pre style="background-color: gray;"><code class="hljs stylus" style="color:white; background-color: gray;">DOMAIN=rhlab<span class="hljs-selector-class" style="color:white; background-color: gray;">.io</span> docker stack deploy -c docker-compose<span class="hljs-selector-class" style="color:white;">.yml</span> traefik-host
 
 </code></pre>
 
