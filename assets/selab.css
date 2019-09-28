@@ -1,6 +1,6 @@
 /* put your css changes here */
 
-/* @import url("dark_theme.css"); */
+/*@import url("dark_theme.css"); */
 
 .pages label{
     padding-right: .5em;
@@ -23,7 +23,7 @@ a:hover{
 }
 
 .ui header{
-    color:black;
+    color:black!important;
 }
 
 .footer{
@@ -77,4 +77,28 @@ body{
 
 .text{
     color:black!important;
+}
+
+.time-since poping up{
+    color:black!important;
+}
+
+.active.item{
+    color:black!important;
+}
+
+#repo-clone-url{
+    color:black!important;
+}
+
+.huge{
+    color:black!important;
+}
+
+.divider{
+    color:black!important;
+}
+
+.left{
+    color:black;
 }
