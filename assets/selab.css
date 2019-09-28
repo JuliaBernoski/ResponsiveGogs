@@ -12,11 +12,14 @@
 }
 
 a{
-    color: black;
+    color: black!important;
+}
+a:hover{
+    color:#2699ab!important;
 }
 
 .header-wrapper{
-    color:black;
+    color:black!important;
 }
 
 .ui header{
@@ -30,3 +33,40 @@ a{
     height:30px;
     width:100%;
 }
+
+.fork-flag{
+    color:black!important;
+}
+
+.section{
+    color:black!important;
+}
+
+body{
+    color:black!important;
+}
+
+.ui.basic.blue.button, .ui.basic.blue.buttons .button{
+    color:black!important;
+}
+.basic.label.ui{
+    color:white!important;
+    background-color: black!important;
+}
+
+.blue.small.label{
+    color:white!important;
+    background-color: black!important;
+}
+
+.ui.small.button, .ui.small.buttons .button, .ui.small.buttons .or{
+    color:black!important;
+}
+
+.ui.table thead th{
+    color:black!important;
+}
+.ui .text.grey{
+    color:black!important;
+}
+
