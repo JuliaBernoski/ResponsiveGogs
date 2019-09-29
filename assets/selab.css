@@ -174,13 +174,21 @@ tr{
 .active.item:nth-child(1){
     color:white!important;
 }
-
+.active.item:nth-child(1):hover{
+    color:red!important;
+}
 .active.item:nth-child(2){
     color:white!important;
+}
+.active.item:nth-child(2):hover{
+    color:red!important;
 }
 
 .active.item:nth-child(3){
     color:white!important;
+}
+.active.item:nth-child(3):hover{
+    color:red!important;
 }
 
 #repo-clone-https{
@@ -189,22 +197,36 @@ tr{
 
 #repo-clone-url{
     color:white!important;
+    background-color:#262626!important;
 }
 
 .three > .time-since[data-content="Tue\,\ 27\ Aug\ 2019\ 01\:39\:55\ UTC"][title=""]{
     color:white!important;
+    background-color:#262626!important;
+}
+.fork-flag > a[target="_blank"][rel="noopener\ noreferrer"]{
+    color:white!important;
+    background-color:#262626!important;
 }
 
 .version{
-    color:white!important; 
+    color:white!important;
+    background-color:black!important;
 }
 
 .huge{
     color:white!important;
+    background-color:#262626!important;
 }
 
 .divider{
     color:white!important;
+    background-color:#262626!important;
+}
+
+.section{
+    color:white!important;
+    background-color:#262626!important;
 }
 
 
@@ -309,7 +331,10 @@ body{
     background-color:#262626!important;
 }
 
-
+div[aria-label="divider"]{
+    color:white!important;
+    background-color:#262626!important;
+}
 
 tr{
     color:white!important;
@@ -323,8 +348,8 @@ table{
 }
 
 .octicon-clippy{
-    background-color: grey!important;
-    color:#262626!important;
+    background-color:#262626!important;
+    color:white!important;
 }
 
 a[href$="gogs\.io\/"]{
@@ -461,8 +486,51 @@ tr:hover a {
     height:30px;
     width:100%;
     color:white!important;
+    background-color: black!important;
+}
+
+a[href$="gogs\.io\/"]{
+    color:white!important;
+    background-color: black!important;
+}
+
+a[href$="gogs\.io\/"]:hover{
+    color:red!important;
+    background-color: black!important;
+}
+
+.language > .text{
+    color:white!important;
+    background-color: black!important;
+}
+.language > .text:hover{
+    color:red!important;
+    background-color: black!important;
 }
   
+.file-view > p{
+    color:white!important;
+}
+
+p > code{
+    color:black!important;
+    background-color: grey!important;
+}
+
+.hljs{
+    color:black!important;
+    background-color: grey!important;
+}
+.hljs-selector-class:nth-child(1){
+    color:black!important;
+    background-color: grey!important;
+}
+
+.hljs-selector-class:nth-child(2){
+    color:black!important;
+    background-color: grey!important;
+}
+
 
   
 
