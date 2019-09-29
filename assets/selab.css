@@ -11,7 +11,7 @@
     padding-bottom: .5em;
 }
 
-a{
+/*a{
     color: white!important;
 }
 a:hover{
@@ -45,7 +45,7 @@ a:hover{
 
 body{
     color:white!important;
-    background-color: #212328!important;
+    background-color: #46494C!important;
 }
 
 .ui.basic.blue.button, .ui.basic.blue.buttons .button{
@@ -73,7 +73,7 @@ body{
 }
 
 .version{
-    color:white!important;
+    color:black!important;
 }
 
 .text{
@@ -144,7 +144,7 @@ background-color: gray!important;
 }
 
 .ui huge breadcrumb{
-    color:white!important;
+    color:red!important;
 }
 
 #file-content{
@@ -162,5 +162,147 @@ background-color: gray!important;
     color:white!important;
 }
 tr{
+    color:white!important;
+}
+#repo-files-table{
+    background-color: gray!important;
+}*/
+
+.octicon{
+    color:white!important;
+}
+.active.item:nth-child(1){
+    color:white!important;
+}
+
+.active.item:nth-child(2){
+    color:white!important;
+}
+
+.active.item:nth-child(3){
+    color:white!important;
+}
+
+#repo-clone-https{
+    color:white!important;
+}
+
+#repo-clone-url{
+    color:white!important;
+}
+
+.three > .time-since[data-content="Tue\,\ 27\ Aug\ 2019\ 01\:39\:55\ UTC"][title=""]{
+    color:white!important;
+}
+
+.version{
+    color:white!important; 
+}
+
+.huge{
+    color:white!important;
+}
+
+.divider{
+    color:white!important;
+}
+
+
+.display.inline:nth-child(1) > .labeled.button.ui > .basic.label.ui{
+    background-color: #63B4D1!important;
+}
+.display.inline:nth-child(2) > .labeled.button.ui > .basic.label.ui{
+    background-color: #63B4D1!important;
+}
+.right.ui > .labeled.button.ui > .basic.label.ui{
+    background-color: #63B4D1!important;
+}
+
+.blue.small.label{
+    background-color: #63B4D1!important;
+    color:black!important;
+}
+.item > p{
+    color:white!important;
+    background-color: gray!important;
+}
+.item > p:hover{
+    color:#63B4D1!important;
+}
+
+.description{
+    color:black!important;
+    background-color:gray!important;
+}
+
+.item:nth-child(1) > a > .black.text{
+    color:black!important;
+    background-color: grey;
+}
+
+.item:nth-child(1) > a > .black.text:hover{
+    color:#63B4D1!important;
+}
+.item:nth-child(2) > a > .black.text{
+    color:black!important;
+    background-color: grey;
+}
+.item:nth-child(2) > a > .black.text:hover{
+    color:#63B4D1!important;
+}
+
+.item:nth-child(3) > a > .black.text{
+    color:black!important;
+    background-color: grey;
+}
+
+.item:nth-child(3) > a > .black.text:hover{
+    color:#63B4D1!important;
+}
+
+.section{
+    color:white!important;
+}
+
+table{
+    color:white!important;
+}
+
+.file-view > p{
+    color:white!important;
+}
+p > code{
+    color:white!important;
+}
+
+body{
+    background-color: gray!important;
+}
+
+.tr:nth-child(6){
+    color:white!important;
+}
+
+#repo-readme {
+    color:white!important;
+    
+}
+
+.hljs{
+    color:white!important;
+}
+.hljs-selector-class:nth-child(1){
+    color:white!important;
+}
+.left{
+    color:white!important;
+}
+.left > strong:nth-child(1){
+    color:white!important;
+}
+.language > .text{
+    color:white!important;
+}
+a[href$="gogs\.io\/"]{
     color:white!important;
 }
