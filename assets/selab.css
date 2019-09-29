@@ -224,7 +224,7 @@ tr{
 }
 .item > p{
     color:white!important;
-    background-color: #080705!important;
+    background-color: #262626!important;
 }
 .item > p:hover{
     color:#63B4D1!important;
@@ -232,12 +232,12 @@ tr{
 
 .description{
     color:white!important;
-    background-color: #080705!important;
+    background-color: #262626!important;
 }
 
 .item:nth-child(1) > a > .black.text{
     color:white!important;
-    background-color: #080705!important;
+    background-color: #262626!important;
 }
 
 .item:nth-child(1) > a > .black.text:hover{
@@ -245,7 +245,7 @@ tr{
 }
 .item:nth-child(2) > a > .black.text{
     color:white!important;
-    background-color: #080705!important;
+    background-color: #262626!important;
 }
 .item:nth-child(2) > a > .black.text:hover{
     color:#63B4D1!important;
@@ -253,7 +253,7 @@ tr{
 
 .item:nth-child(3) > a > .black.text{
     color:white!important;
-    background-color: #080705!important;
+    background-color: #262626!important;
 }
 
 .item:nth-child(3) > a > .black.text:hover{
@@ -304,4 +304,175 @@ p > code{
 a[href$="gogs\.io\/"]{
     color:white!important;
 }
+
+body{
+    background-color:#262626!important;
+}
+
+
+
+tr{
+    color:white!important;
+}
+
+table{
+    color:white!important;
+    width:100%!important;
+    background-color: #4E4E4E!important;
+
+}
+
+.octicon-clippy{
+    background-color: grey!important;
+    color:#262626!important;
+}
+
+a[href$="gogs\.io\/"]{
+    color:white!important;
+}
+tr:nth-child(1) > .name > a {
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:nth-child(2) > .name > a{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:nth-child(3) > .name > a{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:nth-child(4) > .name > a{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+
+tr:nth-child(5) > .name > a{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+
+tr:nth-child(6) > .name > a{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:hover{
+    background-color: black!important;
+}
+tr:nth-child(1) > .message.collapsing.has-emoji{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:nth-child(1) > .message.collapsing.has-emoji:hover{
+    color:white!important;
+    background-color: black!important;
+}
+tr:nth-child(2) > .message.collapsing.has-emoji{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:nth-child(2) > .message.collapsing.has-emoji:hover{
+    color:white!important;
+    background-color: black!important;
+}
+
+tr:nth-child(3) > .message.collapsing.has-emoji{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+
+tr:nth-child(3) > .message.collapsing.has-emoji:hover{
+    color:white!important;
+    background-color: black!important;
+}
+
+tr:nth-child(4) > .message.collapsing.has-emoji{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:nth-child(4) > .message.collapsing.has-emoji:hover{
+    color:white!important;
+    background-color: black!important;
+}
+
+tr:nth-child(5) > .message.collapsing.has-emoji{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:nth-child(5) > .message.collapsing.has-emoji:hover{
+    color:white!important;
+    background-color: black!important;
+}
+
+tr:nth-child(6) > .message.collapsing.has-emoji{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+
+tr:nth-child(6) > .message.collapsing.has-emoji:hover{
+    color:white!important;
+    background-color: black!important;
+}
+tr:nth-child(1) > .age.grey.right > .time-since[data-content="Tue\,\ 28\ May\ 2019\ 14\:07\:12\ UTC"][title=""]{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+
+span[data-content="Wed\,\ 14\ Aug\ 2019\ 19\:12\:55\ UTC"]{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+
+span[data-content="Sun\,\ 25\ Aug\ 2019\ 15\:27\:24\ UTC"]{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:nth-child(4) > .age.grey.right > .time-since[data-content="Tue\,\ 27\ Aug\ 2019\ 01\:39\:55\ UTC"][title=""]{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+tr:nth-child(5) > .age.grey.right > .time-since[data-content="Tue\,\ 28\ May\ 2019\ 14\:07\:12\ UTC"][title=""]{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+
+span[data-content="Sun\,\ 28\ Jul\ 2019\ 01\:17\:05\ UTC"]{
+    color:white!important;
+    background-color: #4E4E4E!important;
+}
+
+tr:hover a {
+    color:white!important;
+  }
+  
+  #repo-files-table tr:hover {
+    color:white!important;
+  }
+  
+  #repo-files-table tr:hover span {
+    /* repo time last changed */
+    color:white!important;
+  }
+
+  .footer{
+    position: fixed;
+    left:0px;    
+    bottom:0px;
+    height:30px;
+    width:100%;
+    color:white!important;
+}
+  
+
+  
+
+
+
+  
+
+
+
+
+
+
 
