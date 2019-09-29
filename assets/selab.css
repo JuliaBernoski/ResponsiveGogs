@@ -224,36 +224,36 @@ tr{
 }
 .item > p{
     color:white!important;
-    background-color: gray!important;
+    background-color: #080705!important;
 }
 .item > p:hover{
     color:#63B4D1!important;
 }
 
 .description{
-    color:black!important;
-    background-color:gray!important;
+    color:white!important;
+    background-color: #080705!important;
 }
 
 .item:nth-child(1) > a > .black.text{
-    color:black!important;
-    background-color: grey;
+    color:white!important;
+    background-color: #080705!important;
 }
 
 .item:nth-child(1) > a > .black.text:hover{
     color:#63B4D1!important;
 }
 .item:nth-child(2) > a > .black.text{
-    color:black!important;
-    background-color: grey;
+    color:white!important;
+    background-color: #080705!important;
 }
 .item:nth-child(2) > a > .black.text:hover{
     color:#63B4D1!important;
 }
 
 .item:nth-child(3) > a > .black.text{
-    color:black!important;
-    background-color: grey;
+    color:white!important;
+    background-color: #080705!important;
 }
 
 .item:nth-child(3) > a > .black.text:hover{
@@ -265,7 +265,8 @@ tr{
 }
 
 table{
-    color:white!important;
+    color:black!important;
+    background-color: gray!important;
 }
 
 .file-view > p{
@@ -275,9 +276,6 @@ p > code{
     color:white!important;
 }
 
-body{
-    background-color: gray!important;
-}
 
 .tr:nth-child(6){
     color:white!important;
@@ -306,3 +304,4 @@ body{
 a[href$="gogs\.io\/"]{
     color:white!important;
 }
+
